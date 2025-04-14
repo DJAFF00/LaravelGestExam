@@ -36,7 +36,7 @@ class EcoleController extends Controller
     public function destroy($id)
     {
         Ecole::destroy($id);
-        return response()->json(['message' => 'Supprimé avec succès']);
+        return response()->json(['message' => 'Ecole Supprimée avec succès']);
     }
 }
 
